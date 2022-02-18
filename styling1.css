@@ -17,6 +17,19 @@
     z-index: 1;
 }
 
+body{
+    background-image:-webkit-linear-gradient(60deg,rgba(218, 169, 215, 0.637),rgba(128, 174, 235, 0.904));
+    background-position: center 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -ms-background-size: cover;
+}
+
+
  .form-control{
      position : relative;
      padding-right:250px;
@@ -24,11 +37,11 @@
      max-width: 600px;
      display: -webkit-flex;
 }
-html,body {
+html,body,footer {
  margin:0;
  padding:0;
  overflow-x:hidden;
- height:150%;
+ height:100%;
 }
 
 
