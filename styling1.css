@@ -2,9 +2,12 @@
  /* Slider */
  .slick-loading .slick-list
  {
-     background: #fff url('./ajax-loader.gif') center center no-repeat;
+     background: rgb(255, 255, 255) url('./ajax-loader.gif') center center no-repeat;
+     background-color:black;
  }
-
+.flex justify-between{
+    margin: 0px 10px 10px 10px;;
+}
  #element {
     background: -moz-linear-gradient(black, rgba(255,255,255,0)); /* FF 3.6+ */  
     background: -ms-linear-gradient(black, rgba(255,255,255,0)); /* IE10 */  
@@ -44,19 +47,26 @@ html,body,footer {
  height:100%;
 }
 
-
+.menu{
+    background-color: black;
+    padding-top:-50%;
+    display:flex;
+    
+}
 
 .logo{
-
- bottom:70%;
+top:20%;
+position :relative;
+ padding-bottom:120px;
 }
 .logos{
  position:absolute;
+ 
  top: 30%;
  bottom:60%;
  left:60%;
  z-index:-1;
- height:80%;
+ height:60%;
  opacity:40%;
 }
 header {
