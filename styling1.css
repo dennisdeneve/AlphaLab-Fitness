@@ -67,7 +67,7 @@ position :relative;
  left:60%;
  z-index:-1;
  height:60%;
- opacity:40%;
+ opacity:10%;
 }
 header {
  background-image: linear-gradient(to right, black , rgb(1, 1, 112));
