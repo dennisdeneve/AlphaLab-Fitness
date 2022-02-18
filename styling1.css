@@ -28,7 +28,10 @@ html,body {
  margin:0;
  padding:0;
  overflow-x:hidden;
+ height:100%;
 }
+
+
 
 .logo{
 
@@ -36,8 +39,8 @@ html,body {
 }
 .logos{
  position:absolute;
- top:55%;
- bottom:55%;
+ top: 30%;
+ bottom:60%;
  left:60%;
  z-index:-1;
  height:80%;
